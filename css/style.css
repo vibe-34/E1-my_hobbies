@@ -1,0 +1,77 @@
+body {
+    background: #2c2c2c;                /*фон окна c контентом*/
+    margin: 0                           /*убираем допуски со всех сторон*/
+}
+
+header {
+    float: top;                         /*расположение блока шапки, сверху*/
+    background: #000000;                /*фон шапки*/
+    height: 80px;                      /*высота данного блока будет динамической и 5% экрана*/
+    color: #fff;                        /*весь текст внутри шапки будет белый (#fff)*/
+}
+
+header img {                            /*для картинки в блоке header*/
+    width: 118px;                       /*ширина 80px*/
+    float: left;                        /*позиционирование слева*/
+}
+
+header .logo{                           /*для блока header и к тегу span в котором есть class=logo*/
+    font-size: 25px;                    /*размер шрифта 25px*/
+    margin-left: 10px;                  /*отступ с левой стороны 10px*/
+    font-weight: bold;                  /*жирность шрифта*/
+    position: relative;                 /*смещаем логотип (HIS AIRINESS)*/
+    top: 25px;                          /*опускаем его вниз на 10px*/
+}
+
+.navigation ul li a {                   /*для блока navigation тега li: и тега a:*/
+    color: #fff;                        /*цвет каждого элемента навигации (#fff)-белый*/
+}
+
+.navigation ul li:hover, .navigation ul a:hover {        /*для эффекта при наведении на тег li: и на тег a: через псевдо класс hover'*/
+    color: #eb5959;                                      /*цвет при наведении - #eb5959 */
+    text-decoration: none;                               /*удаление нижнего подчеркивания при наведении*/
+    transform: scale(1.2);                               /*увеличение текста при наведении на 20%*/
+}
+
+.navigation li {
+    display: inline-block;              /*расположение тегов li в одну строку*/
+    margin-right: 25px;                 /*отступ вправо между тегами li = 25px*/
+    float: right;                       /*расположение блока, справа*/
+}
+
+.content img {                          /*для картинки класса content*/
+    width: 500px;                       /*ширина 500px*/
+    height: 500px;                      /*высота 500px*/
+    float: right;                       /*расположение картинки слева*/
+    padding-top: 20px;                  /*отступ сверху 20рх*/
+    padding-right: 40px;                /*отступ справа 40рх*/
+    padding-bottom: 10px;               /*отступ снизу 10рх*/
+    padding-left: 40px;                 /*отступ слева 40рх*/
+}
+
+.content p {                            /*для тега a класса content*/
+    color: #fff;                        /*цвет (#fff)-белый*/
+    font-size: 1.1em;                   /*размер шрифта*/
+    padding-left: 20px;                 /*отступ текста слева 20px*/
+}
+
+h1 {                                    /*для заголовка h1*/
+    text-align: center;                 /*выравнивание текста по центру*/
+    color: #fc0303                      /*цет текста (#fc0303) - красный*/
+}
+
+.about_me p{                            /*для тега р - класса about_me - страницы about_me*/
+    color: white;                       /*цвет (#fff)-белый*/
+    font-size: 1.1em;                   /*размер шрифта 1.1em*/
+    padding-left: 20px;                 /*отступ текста слева 20px*/
+}
+
+.feedback p {                           /*для тега р - класса feedback - страницы feedback*/
+    color: white;                       /*цвет (#fff)-белый*/
+    font-size: 1.3em;                   /*размер шрифта 1.3em*/
+    padding-left: 20px;                 /*отступ текста слева 20px*/
+}
+
+.feedback p b {                         /*для тега р b- класса feedback - страницы feedback*/
+    color: #f56942                      /*цет текста #f56942*/
+}
